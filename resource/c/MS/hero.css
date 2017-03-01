@@ -1,0 +1,130 @@
+#hero {
+}
+
+#hero .primary-content {
+  padding-bottom: 20px;
+}
+
+/* ---- hero masonry ---- */
+
+.hero-masonry {
+  padding: 10px 1%;
+  margin-bottom: 20px;
+}
+
+.hero-masonry:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.hero-item,
+.hero-masonry .grid-sizer {
+  width: 46.9%; /* juse a lil under  47 */
+  margin: 10px 1%;
+  float: left;
+}
+
+/* necessary for proper sizing with margins */
+.hero-masonry .grid-sizer {
+  position: absolute;
+}
+
+
+.hero-item.has-example  {
+  font-size: 13px;
+  //font-weight: bold;
+  background: white;
+  color: black;
+  display: block;
+}
+
+.hero-item.has-example :hover {
+  background: beige;
+  color: black;
+}
+
+.hero-item.has-example img {
+  display: block;
+  max-width: 100%;
+}
+
+.hero-item.has-example .example-name {
+  font:normal normal normal 13px/1.5 "微軟正黑體", Arial, sans-serif;
+  max-width: 90%;
+  padding: 10px 5%;
+  margin: 0;
+  border: solid 1px #ded7d9;
+  
+}
+
+
+.hero-item.has-example .example-description {
+  font:normal normal normal 15px/1.5 "微軟正黑體", Arial, sans-serif;  
+  max-width: 90%;
+  padding: 10px 5%;
+  margin: 0;
+  border: solid 1px #ded7d9;
+  
+}
+.hero-item.has-example .example-description img{
+  max-width: 100%;
+  display: block;
+  float: left;
+  width: 30%;
+  height: 30%;
+ 
+}
+
+
+/* enough width for 1 columns */
+@media screen and ( min-width: 300px ) {
+
+  .hero-item,
+  .hero-masonry .grid-sizer {
+    width: 100%;
+  }
+}
+/* enough width for 2 columns */
+@media screen and ( min-width: 630px ) {
+
+  .hero-item,
+  .hero-masonry .grid-sizer {
+    width: 50%;
+  }
+}
+/* enough width for 3 columns */
+@media screen and ( min-width: 760px ) {
+  .hero-item,
+  .hero-masonry .grid-sizer {
+    width: 33%;
+  }
+}
+/* enough width for 4 columns */
+@media screen and ( min-width: 900px ) {
+  .hero-item,
+  .hero-masonry .grid-sizer {
+    width: 25%;
+  }
+}
+/* enough width for 5 columns */
+@media screen and ( min-width: 1150px ) {
+  .hero-item,
+  .hero-masonry .grid-sizer {
+    width: 17%;
+  }
+}
+/* enough width for 6 columns */
+@media screen and ( min-width: 1380px ) {
+  .hero-item,
+  .hero-masonry .grid-sizer {
+    width: 14%;
+  }
+}
+/* enough width for 7 columns */
+@media screen and ( min-width: 1600px ) {
+  .hero-item,
+  .hero-masonry .grid-sizer {
+    width: 12%;
+  }
+}

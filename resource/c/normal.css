@@ -1,0 +1,288 @@
+/*loading===============*/
+	.loading{}
+		.loadingloading{
+			background:url(../i/common/bg_lightblueCarben.png) repeat;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			position: fixed;
+			text-align:center;
+			z-index: 200;}
+		.loading_logo{    
+			width: 500px;
+			height: 117px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -250px;
+			margin-top: -121px;}
+		.loading_bar{
+			height: 98px;
+			width: 567px;
+			background: url(../i/common/loadingbg.png) no-repeat scroll left top rgba(0, 0, 0, 0);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -283px;
+			margin-top: -49px;}
+		.loader{
+			width:1%;
+			height:98px;
+			background:url(../i/common/loading.png) no-repeat left top;}
+		.load_status{
+			width: 100px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: 179px;
+			margin-top: -7px;
+			color: #fff;
+			font-family: Arial;
+			font-size: 17px;
+			text-align: center;}
+		.temp{
+			width:4px;
+			height:4px;
+			overflow:hidden;
+			position: absolute;
+			left:-50%;
+			top:-50%;}
+		.temp img{
+			width:4px;
+			height:4px;}
+
+
+
+
+/*開關============*/
+.normal{display: block;}
+.minor{display: none;}
+
+.font12{font:normal normal normal 12px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font13{font:normal normal normal 13px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font14{font:normal normal normal 14px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font15{font:normal normal normal 15px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font16{font:normal normal normal 16px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font17{font:normal normal normal 17px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font18{font:normal normal normal 18px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font19{font:normal normal normal 19px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font20{font:normal normal normal 20px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font21{font:normal normal normal 21px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font22{font:normal normal normal 22px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font24{font:normal normal normal 24px/1.5 "微軟正黑體", Arial, sans-serif;}
+.font51{font:normal normal bold 51px/1.5 "微軟正黑體", Arial, sans-serif;}
+
+.bold{ font-weight: bold;}
+
+a{-webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; text-decoration: none;}
+*:focus {outline: 0;}
+
+/*common===============*/
+
+.bgLay1{position: absolute; left: 50%; top: 50%; margin-left: 10px; margin-top: 10px; z-index: 50; width: 19%;}
+.conLay1{position: absolute; left: 50%; top: 50%; margin-left: 15%;margin-top: -1%;z-index: 51;width: 9%;}
+.conLay2{position: absolute; left: 50%; top: 50%; margin-left: -40%;margin-top: -2%;z-index: 51;width: 11%;}
+.conLay3{position: absolute; left: 50%; top: 50%; margin-left: 22%;margin-top: 19%;z-index: 51;width: 15%;}
+.conLay4{position: absolute; left: 50%; top: 50%; margin-left: -42%;margin-top: 13%;z-index: 51;width: 22%;}
+.net{position: absolute; left: 0px; top: 0px; z-index: 52; background: url(../i/common/net.png) repeat;}
+
+.logo{position: fixed; right:0px; top: 0px; z-index: 100;}
+.menu{position: fixed; left:0px; top: 0px; z-index: 100; width: 200px; height: 300px;}
+
+.menu a{display: block; position: absolute; background-color:#000; color: #fff;}
+.menu a .text, .menu a .pinkBg{display: block; position: absolute;}
+.menu a .text{padding: 6px 20px}
+.menu a .pinkBg{display: block; position: absolute;width: 0; height: 30px; background-color: #eb018c;}
+.menu a[alt~=on] .pinkBg{width: 100%;}
+
+.menu .btn0{/*left: -117px;*/ left: 0px; top: 0px;width: 99px; background-color: #eb018c;padding-left: 18px;}
+.menu .btn1{left: -135px; top:0px;width: 117px; background-color: #eb018c;padding-left: 18px;}
+.menu .btn2{left: -64px; top:33px; width: 64px;height: 30px;}
+.menu .btn3{left: -112px; top:65px; width: 112px;height: 30px;}
+.menu .btn4{left: -162px; top:97px; width: 162px;height: 30px;}
+.menu .btn5{left: -136px; top:129px; width: 136px;height: 30px;}
+.menu .btn6{left: -137px; top:161px; width: 137px;height: 30px;}
+.menu .btn7{left: -88px; top:193px; width: 88px;height: 30px;}
+.menu .btn8{left: -79px; top:225px; width: 79px;height: 30px;}
+
+
+
+/*.menu a{display: block; padding: 3px 20px; background-color: #000; float: left; color: #fff; clear: both; margin-bottom: 2px;}
+.menu a:hover, .menu a[alt~=on]{background-color: #eb018c;}
+.menu .btn1{background-color: #eb018c;}
+.menu .btn1:hover{background-color: #000;}*/
+
+.container{position: relative; overflow: hidden; width: 100%;}
+.main{position: absolute; left: 0px; top: 0px; z-index: 52; text-align: center;}
+.main .blogger{ height: 100%;}
+
+/*名部落客推薦===============*/
+.blo .mainText{position: absolute; left: 0px; bottom: 8%; width:630px; z-index: 52; overflow: hidden;}
+.blo .mainText .cilBtn{display:block;width: 80px; height: 83px; float: left; margin:0 5px 10px 5px; background:url(../i/blogger/btnss.png) no-repeat;}
+.blo .mainText .b1{background-position: 0px -85px;}
+.blo .mainText .b2{background-position: -82px -85px;}
+.blo .mainText .b3{background-position: -164px -85px;}
+.blo .mainText .b4{background-position: -247px -85px;}
+.blo .mainText .b5{background-position: -331px -85px;}
+.blo .mainText .b6{background-position: -414px -85px;}
+.blo .mainText .b7{background-position: -497px -85px;}
+.blo .mainText .b1:hover, .blo .mainText .b1[alt~=on]{background-position: 0px 0px;}
+.blo .mainText .b2:hover, .blo .mainText .b2[alt~=on]{background-position: -82px 0px;}
+.blo .mainText .b3:hover, .blo .mainText .b3[alt~=on]{background-position: -164px 0px;}
+.blo .mainText .b4:hover, .blo .mainText .b4[alt~=on]{background-position: -247px 0px;}
+.blo .mainText .b5:hover, .blo .mainText .b5[alt~=on]{background-position: -331px 0px;}
+.blo .mainText .b6:hover, .blo .mainText .b6[alt~=on]{background-position: -414px 0px;}
+.blo .mainText .b7:hover, .blo .mainText .b7[alt~=on]{background-position: -497px 0px;}
+.blo .mainText .title{width:485px; height: 99px; float: left;}
+
+.blo .cons{position: absolute; right: 6%; top: 0; width: 230px; height: 100%; background: url(../i/blogger/infobg.png) repeat;z-index: 52;}
+.blo .cons .head{position: absolute; left: -6%; top: 27px;}
+.blo .cons h2{position: absolute; left: -6%; top: 10%;}
+.blo .cons h3{position: absolute; left: 0; top: 144px; width: 100%; background-color: #000; padding: 3px 0; text-align: center; color: #eb018c;}
+.blo .cons p{position: absolute; left: 0; top: 185px; width: 82%; padding: 3px 11%;  color: #fff;}
+.blo .cons .share{display:block;position: absolute; left: 17px; bottom: 31px; width: 196px; height: 42px; background: url(../i/blogger/btnShare.png) no-repeat 0 0;}
+.blo .cons .share:hover{background-position: 0 -42px;}
+
+
+
+/*首頁===============*/
+.index .main .bloggersFrame{position: absolute; left: 0px; top:0px;}
+.index .main .bloggers{ height: 100%; float: left; position: absolute;  left: 20%; }
+.index .main .bloggers .blogger{height: 100%; }
+
+
+
+
+.pagerL{display:block; width: 42px; height: 42px; background: url(../i/index/turnLeft.png) no-repeat; position: absolute; left: 15%; top:50%; margin-top: -21px; z-index: 101;}
+.pagerR{display:block; width: 42px; height: 42px; background: url(../i/index/turnRight.png) no-repeat; position: absolute; right: 15%; top:50%; margin-top: -21px; z-index: 101;}
+.pagerL:hover{background-position: 0 -42px;}
+.pagerR:hover{background-position: 0 -42px;}
+
+.index .mainText{position: absolute; left: 0px; bottom: 8%; width:50%; min-width: 523px; min-height: 140px; max-height: 157px; height: 18%; z-index: 52; background: url(../i/common/titlebg.png) repeat;}
+.index .mainText .title{width: 75%;margin-left: 20px;min-width: 429px; height: auto; max-height:140px; max-width:555px;}
+
+.index .goBtn{display: block; width: 102px; height: 102px; position: absolute; right: 0; top: 0;}
+.index .goBtn .off{display: block; width: 100%;position: absolute; left: 0; top: 0;}
+.index .goBtn .on{display: none; width: 100%;position: absolute; left: 0; top: 0;}
+
+
+.index .product{position: absolute; right: 0; bottom: 0; z-index: 52;}
+
+
+
+/*Product===============*/
+.pro .container{overflow-y:scroll;}
+.pro .main{width: 100%;}
+.pro .main .alltop{background: url(../i/product/alltop.png) no-repeat center center;}
+
+.pro .bgLay1{position: fixed; left: 50%; top: 50%; z-index: 50;}
+.pro .canLay1{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.pro .canLay2{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.pro .canLay3{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.pro .canLay4{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.pro .net{position:  fixed; left: 0px; top: 0px; z-index: 52; background: url(../i/common/net.png) repeat;}
+
+
+/*素人百人推薦===============*/
+.hun .container{overflow-y:scroll;}
+.hun .main{position: absolute; right: 0px; left: auto; top: 0px; z-index: 52; text-align: left;}
+
+.hun .bgLay1{position: fixed; left: 50%; top: 50%; z-index: 50;}
+.hun .canLay1{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.hun .canLay2{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.hun .canLay3{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.hun .canLay4{position: fixed; left: 0px; top: 0px; z-index: 51;}
+.hun .net{position:  fixed; left: 0px; top: 0px; z-index: 52; background: url(../i/common/net.png) repeat;}
+
+
+.hun .main .panel{
+	width: 15%;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	margin: 0 0.5% 20px 0.5%; 
+	float: left;
+}
+.hun .main .panel .theme{width: 100%; border: solid 1px #ded7d9;}
+.hun .main .panel h4{width: 90%; border: solid 1px #ded7d9; border-top:none; background-color: #fff;padding: 5px 5%; color: #555555;}
+.hun .main .panel .NN{width: 90%; border: solid 1px #ded7d9; border-top:none; background-color: #fff;padding: 10px 5%; overflow: hidden;}
+.hun .main .panel .NN .MM{width:30px; height: 30px; float: left; overflow: hidden; margin-right: 5px;}
+.hun .main .panel .NN .MM img{width: 100%;}
+.hun .main .panel .NN h5{color: #333333; font-weight: bold;}
+
+
+.hun .can{position: fixed; left: 73px; bottom: 9%; z-index: 52;}
+.hun .toProbuct{display:block; position: fixed; left: 221px; bottom: 188px; width:102px; height: 102px; background: url(../i/hundredBlogger/productBtn.png) no-repeat 0 0; z-index: 52; overflow: hidden;}
+.hun .toProbuct:hover{background-position: 0 -102px;}
+.hun .mainText{position: fixed; left: 0px; bottom: 54px; width:363px; z-index: 52; overflow: hidden;}
+
+.hun .product{position: fixed; right: 0; bottom: 0; z-index: 52;}
+
+/*發佈||活動辦法===============*/
+
+.popblock{width: 100%; height: 100%; background: url(../i/common/block.png) repeat; position: fixed; top: 0; left: 0;z-index: 59;}
+/*---0722 得獎名單 公告---*/
+.popblock_win{width: 100%; height: 100%; background: url(../i/common/block.png) repeat; position: fixed; top: 0; left: 0;z-index: 59;}
+/*---0722 得獎名單 公告end---*/
+.des{position: fixed; top: 50%; right:-100%; margin-top:-220px;  width: 78%; height: 50%; z-index: 102;padding-top: 54px;}
+.des .black{background: url(../i/../i/common/titlebg.png) repeat; height: 100%;}
+.des .head{position: absolute; left: 0; top: 0;}
+.des .foot{position: absolute; left: 0; bottom: 0;}
+.des .circle{ height: 100%; width: auto;position: relative;}
+.des .circle .C{ height: 100%; width: auto;position: absolute; right: 100%; top: 0;}
+.des .circle .P{ position: absolute; right: 101%; top: 50%; margin-top:-177px;}
+.des .bgbgbg{width: 742px; overflow: hidden; position: absolute; left: 0; top: 53px;}
+.des .bgbgbg img{width: 742px; height: 100%; overflow: hidden;}
+.des .text{width: 692px; height: 175px; position: absolute; left: 0px; bottom: 10px; background: url(../i/common/descriptionBody.png) repeat-y; z-index: 10000;padding: 25px;}
+.des .text ul{}
+.des .text ul li{ margin-bottom: 20px;}
+.des .text ul li ol{list-style-type: disc;
+list-style-position: outside;
+margin-left: 21px;}
+.des .black .closer{display: block; width: 38px; height: 38px; position: absolute; left: 742px; top:55px; background: url(../i/common/closer.png) no-repeat;}
+.des .publish .closer{display: block; width: 38px; height: 38px; position: absolute; left: 95.5%; top:36%; background: url(../i/common/closer.png) no-repeat;}
+
+/*---0722 得獎名單 公告---*/
+.winnerList{position: fixed; top: 50%; right:0%; margin-top:-220px;  width: 78%; height: 50%; z-index: 102;padding-top: 54px;}
+.winnerList .black{background: url(../i/../i/common/titlebg.png) repeat; height: 100%;}
+.winnerList .head{position: absolute; left: 0; top: 0;}
+.winnerList .foot{position: absolute; left: 0; bottom: 0;}
+.winnerList .circle{ height: 100%; width: auto;position: relative;}
+.winnerList .circle .C{ height: 100%; width: auto;position: absolute; right: 100%; top: 0;}
+.winnerList .circle .P{ position: absolute; right: 101%; top: 50%; margin-top:-177px;}
+.winnerList .bgbgbg{width: 742px; overflow: hidden; position: absolute; left: 0; top: 53px;}
+.winnerList .bgbgbg img{width: 742px; height: 100%; overflow: hidden;}
+.winnerList .text{width: 692px; height: 175px; position: absolute; left: 0px; bottom: 10px; background: url(../i/common/descriptionBody.png) repeat-y; z-index: 10000;padding: 25px;}
+.winnerList .text ul{}
+.winnerList .text ul li{ margin-bottom: 20px;}
+.winnerList .text ul li ol{list-style-type: disc;
+list-style-position: outside;
+margin-left: 21px;}
+.winnerList .black .closer{display: block; width: 38px; height: 38px; position: absolute; left: 742px; top:55px; background: url(../i/common/closer.png) no-repeat;}
+.winnerList .publish .closer{display: block; width: 38px; height: 38px; position: absolute; left: 95.5%; top:36%; background: url(../i/common/closer.png) no-repeat;}
+/*---0722 得獎名單 公告end---*/
+
+.publish{position: fixed; top: 50%; right:-100%; margin-top:-220px;  width: 847px; height: 354px; background: url(../i/common/publish.png) no-repeat 0 0; z-index: 60;}
+.publish .tt1{position: absolute;
+top: 133px;
+left: 186px;
+width: 337px;
+height: 53px;}
+.publish .tt2{position: absolute;
+top: 198px;
+left: 249px;
+width: 277px;
+height: 20px;}
+.publish .tt3{position: absolute;
+top: 230px;
+left: 249px;
+width: 277px;
+height: 20px;}
+.publish .tt4{position: absolute;
+top: 262px;
+left: 249px;
+width: 277px;
+height: 20px;}
+.publish .confirm{display:block; position: absolute;top: 294px;left: 399px;width: 131px;height: 25px; background: url(../i/common/publishBtn.png) no-repeat;}
+.publish .confirm:hover{background-position: 0 -25px; }
