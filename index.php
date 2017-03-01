@@ -54,7 +54,7 @@ if (isset($_SERVER['HTTP_HOST'])) {
 
 //define('WEBROOT','http://event.ah-solution.com.tw/omega_test/distant_fun');
 //define('WEBROOT','http://event.ah-solution.com.tw/Prototype');
-define('WEBROOT','/waittinghsu/distant_fun');
+define('WEBROOT','/www/distant_fun');
 define('WEBROOT_RESOURCE',WEBROOT."/resource");
 define('DOCROOT',dirname(__FILE__));
 define('WEB_I',WEBROOT_RESOURCE."/i");
@@ -65,8 +65,8 @@ define('IMG_DOC',DOCROOT."\\resource\images");
 define('FBIMG_DOC',DOCROOT."\\resource\i\\fb_img_make");
 define('DB_NAME','omega_test');
 define('FBAPP_ID',"539320759459611");
-define('FBAPP_SECRET',"c7aca68c3b3b27a9c1200f3466cabbce  ok");
-//gguggguug4302551315
+define('FBAPP_SECRET',"c7aca68c3b3b27a9c1200f3466cabbce");
+
 
 
 define('SESSION_PRE','ahpj_');  //每個專案自定的session 開頭

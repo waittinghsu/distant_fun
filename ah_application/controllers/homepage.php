@@ -170,7 +170,7 @@ class Homepage extends CI_Controller {
             $config['wm_hor_alignment'] = 'left';
             $config['wm_hor_x_axis'] = 48;
             $config['wm_vrt_y_axis'] = 90;
-            $config['wm_opacity'] = 100; //圖片透明度
+            $config['wm_opacity'] = 80; //圖片透明度
             $config['wm_type'] = 'overlay';  
             $this->ah_util->img_combined($config);
             /* -----------------------END--------------------- */       
